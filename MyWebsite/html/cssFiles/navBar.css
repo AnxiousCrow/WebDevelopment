@@ -1,0 +1,60 @@
+nav.navbar {
+  padding-left: 0;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.dropdown-menu {
+  background: inherit;
+}
+
+.dropdown-item {
+  color: #999;
+}
+
+.dropdown-item.active {
+  background: #00695c;
+  color: white
+}
+
+.dropdown-item:hover {
+  background: #00695c;
+  color: white;
+}
+
+div,
+ul,
+li {
+  background-color: inherit;
+  color: inherit;
+}
+
+#search-field {
+  background: inherit;
+  border-color: #999;
+  border-width: 1px;
+  color: #999;
+}
+
+#search-field:focus,
+#search-field:hover {
+  background: inherit;
+  border-color: white;
+  color: white;
+}
+
+form.form-inline button {
+  color: #999;
+  border-color: #999;
+  border-width: 1px;
+}
+
+form.form-inline button:hover,
+form.form-inline button:focus {
+  background: inherit;
+  color: white;
+}
+
+a.navbar-brand {
+  padding-left: 15px;
+}
